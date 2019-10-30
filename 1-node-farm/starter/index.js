@@ -2,6 +2,8 @@ const fs =  require('fs');
 const http = require('http');
 const url = require('url');
 
+const slugify = require('slugify');
+
 const replaceTemplate = require('./modules/replaceTemplate.js');
 
 // fs.readFile('./txt/start.txt', 'utf-8', (err, data1) => {
